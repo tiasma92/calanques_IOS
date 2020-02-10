@@ -17,6 +17,8 @@
 		CD49E8EE23F1955000A95705 /* ControllerWithTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49E8ED23F1955000A95705 /* ControllerWithTableViewViewController.swift */; };
 		CD49E8F023F1957000A95705 /* ControllerWithCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49E8EF23F1957000A95705 /* ControllerWithCart.swift */; };
 		CD49E8F223F1959600A95705 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49E8F123F1959600A95705 /* TableViewController.swift */; };
+		CD7D936623F1A16C0075D538 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D936523F1A16C0075D538 /* CalanqueCell.swift */; };
+		CD7D936823F1A7270075D538 /* ImageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D936723F1A7270075D538 /* ImageCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		CD49E8ED23F1955000A95705 /* ControllerWithTableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWithTableViewViewController.swift; sourceTree = "<group>"; };
 		CD49E8EF23F1957000A95705 /* ControllerWithCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerWithCart.swift; sourceTree = "<group>"; };
 		CD49E8F123F1959600A95705 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CD7D936523F1A16C0075D538 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
+		CD7D936723F1A7270075D538 /* ImageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 		CD49E8E723F18F1300A95705 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CD7D936523F1A16C0075D538 /* CalanqueCell.swift */,
+				CD7D936723F1A7270075D538 /* ImageCircle.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -180,7 +186,9 @@
 				CD49E8D323F16E6400A95705 /* SceneDelegate.swift in Sources */,
 				CD49E8F023F1957000A95705 /* ControllerWithCart.swift in Sources */,
 				CD49E8EC23F1948700A95705 /* CalanqueCollection.swift in Sources */,
+				CD7D936823F1A7270075D538 /* ImageCircle.swift in Sources */,
 				CD49E8EE23F1955000A95705 /* ControllerWithTableViewViewController.swift in Sources */,
+				CD7D936623F1A16C0075D538 /* CalanqueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
