@@ -8,7 +8,7 @@
 
 import UIKit
 
-class calanqueCollection {
+class CalanqueCollection {
     func all() -> [Calanque]{
         var calanques: [Calanque] = []
     

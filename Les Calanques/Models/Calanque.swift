@@ -32,6 +32,9 @@ class Calanque {
     var longitude: Double {
         return _longitude
     }
+    var image: UIImage? {
+        return _image
+    }
     
     init(nom: String, desc: String, image: UIImage?, latitude: Double, longitude: Double) {
         _nom = nom
