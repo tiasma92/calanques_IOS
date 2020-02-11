@@ -19,6 +19,7 @@
 		CD49E8F223F1959600A95705 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49E8F123F1959600A95705 /* TableViewController.swift */; };
 		CD7D936623F1A16C0075D538 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D936523F1A16C0075D538 /* CalanqueCell.swift */; };
 		CD7D936823F1A7270075D538 /* ImageCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D936723F1A7270075D538 /* ImageCircle.swift */; };
+		CD7D936C23F1BE300075D538 /* CalanqueCellAlternative.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7D936B23F1BE300075D538 /* CalanqueCellAlternative.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CD49E8F123F1959600A95705 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		CD7D936523F1A16C0075D538 /* CalanqueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCell.swift; sourceTree = "<group>"; };
 		CD7D936723F1A7270075D538 /* ImageCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCircle.swift; sourceTree = "<group>"; };
+		CD7D936B23F1BE300075D538 /* CalanqueCellAlternative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanqueCellAlternative.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			children = (
 				CD7D936523F1A16C0075D538 /* CalanqueCell.swift */,
 				CD7D936723F1A7270075D538 /* ImageCircle.swift */,
+				CD7D936B23F1BE300075D538 /* CalanqueCellAlternative.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD49E8EA23F1930600A95705 /* Calanque.swift in Sources */,
+				CD7D936C23F1BE300075D538 /* CalanqueCellAlternative.swift in Sources */,
 				CD49E8F223F1959600A95705 /* TableViewController.swift in Sources */,
 				CD49E8D123F16E6400A95705 /* AppDelegate.swift in Sources */,
 				CD49E8D323F16E6400A95705 /* SceneDelegate.swift in Sources */,
