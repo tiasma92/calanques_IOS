@@ -42,4 +42,24 @@ class ControllerWithTableViewViewController: UIViewController, UITableViewDelega
         return 200
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: segueId, sender: calanques[indexPath.row])
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == segueId, let vc = segue.destination as? DetailController {
+            vc.calanqueGet = sender as? Calanque
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            calanques.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+        }
+    }
+    
+    @IBAction func ReloadAction(_ sender: Any) {
+        calanques = CalanqueCollection().all()
+        tableView.reloadData()
+    }
 }

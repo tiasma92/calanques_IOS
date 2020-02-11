@@ -11,7 +11,7 @@ import CoreLocation
 
 class Calanque {
     
-    private var _nom: String
+    private(set) var _nom: String
     private var _desc: String
     private var _latitude: Double
     private var _longitude: Double

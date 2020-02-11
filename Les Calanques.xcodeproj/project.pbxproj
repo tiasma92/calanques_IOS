@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD31DA1F23F2A53F003954A4 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31DA1E23F2A53F003954A4 /* DetailController.swift */; };
+		CD31DA2123F2C1E3003954A4 /* ButtonRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD31DA2023F2C1E3003954A4 /* ButtonRadius.swift */; };
 		CD49E8D123F16E6400A95705 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49E8D023F16E6400A95705 /* AppDelegate.swift */; };
 		CD49E8D323F16E6400A95705 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49E8D223F16E6400A95705 /* SceneDelegate.swift */; };
 		CD49E8DA23F16E6500A95705 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD49E8D823F16E6500A95705 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CD31DA1E23F2A53F003954A4 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		CD31DA2023F2C1E3003954A4 /* ButtonRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonRadius.swift; sourceTree = "<group>"; };
 		CD49E8CD23F16E6400A95705 /* Les Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Les Calanques.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD49E8D023F16E6400A95705 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD49E8D223F16E6400A95705 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +102,7 @@
 				CD7D936523F1A16C0075D538 /* CalanqueCell.swift */,
 				CD7D936723F1A7270075D538 /* ImageCircle.swift */,
 				CD7D936B23F1BE300075D538 /* CalanqueCellAlternative.swift */,
+				CD31DA2023F2C1E3003954A4 /* ButtonRadius.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				CD49E8ED23F1955000A95705 /* ControllerWithTableViewViewController.swift */,
 				CD49E8EF23F1957000A95705 /* ControllerWithCart.swift */,
 				CD49E8F123F1959600A95705 /* TableViewController.swift */,
+				CD31DA1E23F2A53F003954A4 /* DetailController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,7 +190,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD49E8EA23F1930600A95705 /* Calanque.swift in Sources */,
+				CD31DA2123F2C1E3003954A4 /* ButtonRadius.swift in Sources */,
 				CD7D936C23F1BE300075D538 /* CalanqueCellAlternative.swift in Sources */,
+				CD31DA1F23F2A53F003954A4 /* DetailController.swift in Sources */,
 				CD49E8F223F1959600A95705 /* TableViewController.swift in Sources */,
 				CD49E8D123F16E6400A95705 /* AppDelegate.swift in Sources */,
 				CD49E8D323F16E6400A95705 /* SceneDelegate.swift in Sources */,
